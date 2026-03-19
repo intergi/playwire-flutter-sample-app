@@ -22,20 +22,17 @@ class _AdTypesState extends State<AdTypes> {
   void initState() {
     super.initState();
 
+    Logger.root.level = Level.ALL;
     Logger.root.onRecord.listen((record) {
       if (kDebugMode) {
         print('[ROOT] ${record.message}');
       }
     });
 
-    if(kDebugMode) {
-      Logger.root.level = Level.ALL;
-
-      Logger.root.fine("Running on debug mode");
-
-      Playwire.startConsoleLogger();
-      Playwire.setTest(false);
-    }
+    // Log SDK events to console.
+    Playwire.startConsoleLogger();
+    // Set to `true` to test your implementation with GAM test ads on real devices.
+    Playwire.setTest(false);
 
     _initializeSDK();
   }
