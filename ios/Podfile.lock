@@ -29,10 +29,9 @@ PODS:
   - AppLovinMediationIronSourceAdapter (8.8.0.0.0):
     - AppLovinSDK (>= 13.0.0)
     - IronSourceSDK (= 8.8.0.0)
-  - AppLovinMediationMintegralAdapter (7.7.8.0.0):
+  - AppLovinMediationMolocoAdapter (4.3.0.0):
     - AppLovinSDK (>= 13.0.0)
-    - MintegralAdSDK (= 7.7.8)
-    - MintegralAdSDK/BidSplashAd (= 7.7.8)
+    - MolocoSDKiOS (= 4.3.0)
   - AppLovinMediationOguryPresageAdapter (5.0.2.0):
     - AppLovinSDK
     - OgurySdk (= 5.0.2)
@@ -52,8 +51,8 @@ PODS:
   - AppLovinMediationVungleAdapter (7.4.5.0):
     - AppLovinSDK (>= 13.0.0)
     - VungleAds (= 7.4.5)
-  - AppLovinSDK (13.2.0)
-  - ATOM-Standalone (3.8.0)
+  - AppLovinSDK (13.4.0)
+  - ATOM-Standalone (3.9.0)
   - ChartboostSDK (9.8.1)
   - FBAudienceNetwork (6.20.0)
   - Flutter (1.0.0)
@@ -61,8 +60,8 @@ PODS:
   - Google-Mobile-Ads-SDK (12.0.0):
     - GoogleUserMessagingPlatform (>= 1.1)
   - GoogleAds-IMA-iOS-SDK (3.26.1)
-  - GoogleMobileAdsMediationAppLovin (13.2.0.0):
-    - AppLovinSDK (= 13.2.0)
+  - GoogleMobileAdsMediationAppLovin (13.4.0.0):
+    - AppLovinSDK (= 13.4.0)
     - Google-Mobile-Ads-SDK (~> 12.0)
   - GoogleMobileAdsMediationChartboost (9.8.1.0):
     - ChartboostSDK (= 9.8.1)
@@ -79,9 +78,9 @@ PODS:
   - GoogleMobileAdsMediationIronSource (8.8.0.0.0):
     - Google-Mobile-Ads-SDK (~> 12.0)
     - IronSourceSDK (= 8.8.0.0)
-  - GoogleMobileAdsMediationMintegral (7.7.8.0):
+  - GoogleMobileAdsMediationMoloco (4.3.0.1):
     - Google-Mobile-Ads-SDK (~> 12.0)
-    - MintegralAdSDK/All (= 7.7.8)
+    - MolocoSDKiOS (= 4.3.0)
   - GoogleMobileAdsMediationPangle (7.2.0.5.0):
     - Ads-Global (= 7.2.0.5)
     - Google-Mobile-Ads-SDK (~> 12.0)
@@ -113,57 +112,7 @@ PODS:
     - HyBid/Core
   - InMobiSDK (10.8.3)
   - IronSourceSDK (8.8.0.0)
-  - MintegralAdSDK (7.7.8):
-    - MintegralAdSDK/BannerAd (= 7.7.8)
-    - MintegralAdSDK/BidBannerAd (= 7.7.8)
-    - MintegralAdSDK/BidInterstitialVideoAd (= 7.7.8)
-    - MintegralAdSDK/BidNativeAd (= 7.7.8)
-    - MintegralAdSDK/BidNewInterstitialAd (= 7.7.8)
-    - MintegralAdSDK/BidRewardVideoAd (= 7.7.8)
-    - MintegralAdSDK/InterstitialVideoAd (= 7.7.8)
-    - MintegralAdSDK/NativeAd (= 7.7.8)
-    - MintegralAdSDK/NewInterstitialAd (= 7.7.8)
-    - MintegralAdSDK/RewardVideoAd (= 7.7.8)
-  - MintegralAdSDK/All (7.7.8):
-    - MintegralAdSDK/BannerAd
-    - MintegralAdSDK/BidNativeAd
-    - MintegralAdSDK/InterstitialVideoAd
-    - MintegralAdSDK/NativeAd
-    - MintegralAdSDK/NativeAdvancedAd
-    - MintegralAdSDK/NewInterstitialAd
-    - MintegralAdSDK/RewardVideoAd
-    - MintegralAdSDK/SplashAd
-  - MintegralAdSDK/BannerAd (7.7.8):
-    - MintegralAdSDK/NativeAd
-  - MintegralAdSDK/BidBannerAd (7.7.8):
-    - MintegralAdSDK/BannerAd
-    - MintegralAdSDK/BidNativeAd
-  - MintegralAdSDK/BidInterstitialVideoAd (7.7.8):
-    - MintegralAdSDK/BidNativeAd
-    - MintegralAdSDK/InterstitialVideoAd
-  - MintegralAdSDK/BidNativeAd (7.7.8):
-    - MintegralAdSDK/NativeAd
-  - MintegralAdSDK/BidNewInterstitialAd (7.7.8):
-    - MintegralAdSDK/BidNativeAd
-    - MintegralAdSDK/NewInterstitialAd
-  - MintegralAdSDK/BidRewardVideoAd (7.7.8):
-    - MintegralAdSDK/BidNativeAd
-    - MintegralAdSDK/RewardVideoAd
-  - MintegralAdSDK/BidSplashAd (7.7.8):
-    - MintegralAdSDK/BidNativeAd
-    - MintegralAdSDK/SplashAd
-  - MintegralAdSDK/InterstitialVideoAd (7.7.8):
-    - MintegralAdSDK/NativeAd
-  - MintegralAdSDK/NativeAd (7.7.8)
-  - MintegralAdSDK/NativeAdvancedAd (7.7.8):
-    - MintegralAdSDK/NativeAd
-  - MintegralAdSDK/NewInterstitialAd (7.7.8):
-    - MintegralAdSDK/InterstitialVideoAd
-    - MintegralAdSDK/NativeAd
-  - MintegralAdSDK/RewardVideoAd (7.7.8):
-    - MintegralAdSDK/NativeAd
-  - MintegralAdSDK/SplashAd (7.7.8):
-    - MintegralAdSDK/NativeAd
+  - MolocoSDKiOS (4.3.0)
   - OguryAds (4.0.2):
     - OguryAds/OMID (= 4.0.2)
     - OguryCore (= 2.0.0)
@@ -177,13 +126,13 @@ PODS:
     - OguryAds (= 4.0.2)
     - OguryCore (= 2.0.0)
   - OpenWrapSDK (4.7.0)
-  - Playwire (12.0.0):
-    - Playwire/Total (= 12.0.0)
-  - Playwire/Core (12.0.0):
+  - Playwire (12.1.1):
+    - Playwire/Total (= 12.1.1)
+  - Playwire/Core (12.1.1):
     - Google-Mobile-Ads-SDK (= 12.0.0)
     - GoogleUserMessagingPlatform (= 2.5.0)
-    - PlaywireMobile/VAST (= 6.1.0)
-  - Playwire/Total (12.0.0):
+    - PlaywireMobile/VAST (= 6.2.0)
+  - Playwire/Total (12.1.1):
     - AmazonPublisherServicesSDK (= 5.1.0)
     - AppLovinMediationAmazonAdMarketplaceAdapter (= 5.1.0.0)
     - AppLovinMediationByteDanceAdapter (= 7.2.0.5.0)
@@ -194,32 +143,32 @@ PODS:
     - AppLovinMediationGoogleAdManagerAdapter (= 12.0.0.0)
     - AppLovinMediationInMobiAdapter (= 10.8.3.1)
     - AppLovinMediationIronSourceAdapter (= 8.8.0.0.0)
-    - AppLovinMediationMintegralAdapter (= 7.7.8.0.0)
+    - AppLovinMediationMolocoAdapter (= 4.3.0.0)
     - AppLovinMediationOguryPresageAdapter (= 5.0.2.0)
     - AppLovinMediationPubMaticAdapter (= 4.7.0.2)
     - AppLovinMediationSmaatoAdapter (= 22.9.3.1)
     - AppLovinMediationUnityAdsAdapter (= 4.15.1.1)
     - AppLovinMediationVerveAdapter (= 3.7.1.0)
     - AppLovinMediationVungleAdapter (= 7.4.5.0)
-    - AppLovinSDK (= 13.2.0)
-    - GoogleMobileAdsMediationAppLovin (= 13.2.0.0)
+    - AppLovinSDK (= 13.4.0)
+    - GoogleMobileAdsMediationAppLovin (= 13.4.0)
     - GoogleMobileAdsMediationChartboost (= 9.8.1.0)
     - GoogleMobileAdsMediationFacebook (= 6.20.0.0)
     - GoogleMobileAdsMediationFyber (= 8.3.6.0)
     - GoogleMobileAdsMediationInMobi (= 10.8.3.1)
     - GoogleMobileAdsMediationIronSource (= 8.8.0.0.0)
-    - GoogleMobileAdsMediationMintegral (= 7.7.8.0)
+    - GoogleMobileAdsMediationMoloco (= 4.3.0.1)
     - GoogleMobileAdsMediationPangle (= 7.2.0.5.0)
     - GoogleMobileAdsMediationUnity (= 4.15.1.0)
     - GoogleMobileAdsMediationVungle (= 7.4.5.0)
     - Playwire/Core
-  - playwire_flutter (12.0.0):
+  - playwire_flutter (12.1.1):
     - Flutter
-    - Playwire (= 12.0.0)
-  - PlaywireMobile/Core (6.1.0)
-  - PlaywireMobile/VAST (6.1.0):
+    - Playwire (= 12.1.1)
+  - PlaywireMobile/Core (6.2.0)
+  - PlaywireMobile/VAST (6.2.0):
     - GoogleAds-IMA-iOS-SDK (~> 3.26.1)
-    - PlaywireMobile/Core (= 6.1.0)
+    - PlaywireMobile/Core (= 6.2.0)
   - smaato-ios-sdk (22.9.3):
     - smaato-ios-sdk/Full (= 22.9.3)
   - smaato-ios-sdk/Banner (22.9.3):
@@ -287,7 +236,7 @@ SPEC REPOS:
     - AppLovinMediationGoogleAdManagerAdapter
     - AppLovinMediationInMobiAdapter
     - AppLovinMediationIronSourceAdapter
-    - AppLovinMediationMintegralAdapter
+    - AppLovinMediationMolocoAdapter
     - AppLovinMediationOguryPresageAdapter
     - AppLovinMediationPubMaticAdapter
     - AppLovinMediationSmaatoAdapter
@@ -307,7 +256,7 @@ SPEC REPOS:
     - GoogleMobileAdsMediationFyber
     - GoogleMobileAdsMediationInMobi
     - GoogleMobileAdsMediationIronSource
-    - GoogleMobileAdsMediationMintegral
+    - GoogleMobileAdsMediationMoloco
     - GoogleMobileAdsMediationPangle
     - GoogleMobileAdsMediationUnity
     - GoogleMobileAdsMediationVungle
@@ -315,7 +264,7 @@ SPEC REPOS:
     - HyBid
     - InMobiSDK
     - IronSourceSDK
-    - MintegralAdSDK
+    - MolocoSDKiOS
     - OguryAds
     - OguryCore
     - OgurySdk
@@ -344,28 +293,28 @@ SPEC CHECKSUMS:
   AppLovinMediationGoogleAdManagerAdapter: 21fa11214bf52ff16435040e5835170000820482
   AppLovinMediationInMobiAdapter: d48f3ea94e88f04c86215edf1f56436bfe2a51b5
   AppLovinMediationIronSourceAdapter: 77406f18fbb4efc4c0476666dc2b85f51a7b07cb
-  AppLovinMediationMintegralAdapter: 5f64aa8427ba19efea2e0d583abc22dc4633705b
+  AppLovinMediationMolocoAdapter: c1f6efff3dc92344d682c34838aa1280000e2c8d
   AppLovinMediationOguryPresageAdapter: e7f82ffd005d550b588b7ac4edc3e502e409548c
   AppLovinMediationPubMaticAdapter: 57164b2aabccb842db341d05fe6f79055cd9971c
   AppLovinMediationSmaatoAdapter: 364c81c15f796198c34c66f0c711a21a771c8b7a
   AppLovinMediationUnityAdsAdapter: aa95023a157ab8f63db025cd1a051c837a98d35e
   AppLovinMediationVerveAdapter: f61681de013da282cecf112ebc571df4da407d72
   AppLovinMediationVungleAdapter: 969448b436df91ac3f78e3b2e41ce4cd9cdf0c9e
-  AppLovinSDK: 1eb88a82b4feea9f3696ce9cc1e3343c4997ee12
-  ATOM-Standalone: ad17f0d0e60b22f67ed99e5a336425d68d324f3e
+  AppLovinSDK: 33fcc783889e2d522ae26886b31e5551246a5b2f
+  ATOM-Standalone: cd8bed8eb43e48d0f2e778aa0db893cb7f8ceb93
   ChartboostSDK: 5d387aeccf2748cd71c0b033e6c2cad4a558b308
   FBAudienceNetwork: 51d3681e66c00ee36811c0d96e9fa39d5673eba8
   Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
   Fyber_Marketplace_SDK: 231146f679a38b29fe40c855b51c2a7dc085c116
   Google-Mobile-Ads-SDK: 14a8e52164a89a44178bd67d544f207969f8d69a
   GoogleAds-IMA-iOS-SDK: 10b8f194e7cd2714d4de9a0587c46c8aaf06c620
-  GoogleMobileAdsMediationAppLovin: 84f9181ab13ad890f1280710150afc4454e32fa3
+  GoogleMobileAdsMediationAppLovin: 604d93a0913908be064558a90170004f35b57a96
   GoogleMobileAdsMediationChartboost: 2c49fe89ae5998544c6494d9c8c4b6d0eb457226
   GoogleMobileAdsMediationFacebook: 9ca21f40f6873d557900cef231315ef21965b8c8
   GoogleMobileAdsMediationFyber: e4953a753de1c6bcb4f49b4b7475a39e9b02844a
   GoogleMobileAdsMediationInMobi: 581baf9e869f5d0167b8820af9945137145f8480
   GoogleMobileAdsMediationIronSource: fd3c9a3986e61cbae0cb3a413518284c9ac4e9d9
-  GoogleMobileAdsMediationMintegral: 0aefaa2f0608c210eb26dd6a6207d8c1bd992bbd
+  GoogleMobileAdsMediationMoloco: 86e1afd6e729d9c8b52f08a9e39b442bff5fdcb7
   GoogleMobileAdsMediationPangle: 5f251da22dc3cc366466f70ecf4ab737aa60032e
   GoogleMobileAdsMediationUnity: 75271f54a9a31f98d31b7396a1b96729dac5538d
   GoogleMobileAdsMediationVungle: e9fda9d0a74a0b24c7e4f58babf7939b8599e559
@@ -373,14 +322,14 @@ SPEC CHECKSUMS:
   HyBid: c75fa40e2d209aaed25b60f7bcd0e408d294c19e
   InMobiSDK: 174c7910f27fb860e4f2204d621ef724efefc819
   IronSourceSDK: ff0b14630899756847f7608a75182f10f022e5ef
-  MintegralAdSDK: 07e018290689b906499d8285654bba42681cafcf
+  MolocoSDKiOS: c2800326280d78aa3a7914f4e474024272891b85
   OguryAds: d9887cf3c756572175b22efadd08506d4b2f20fe
   OguryCore: 1c7c2009f958b7026d5bca89e4c97dfa3fa9ef87
   OgurySdk: 05f1a6433d0c291a62ea46b190cf0ab1b03ddee3
   OpenWrapSDK: 87c50aa81cef357a94d8d16afd9aa1273d3d8161
-  Playwire: 31b81f86f9d95c083346f9bb3c0ec8728a111b65
-  playwire_flutter: 76dd163824882308c42e7c2863b380a9d65c6e6a
-  PlaywireMobile: 9466162a8b1afbec3d573f777ad0b72fe074689a
+  Playwire: 4b0f24e4bf5d4db165842f5ae34416a5be7d42b1
+  playwire_flutter: 75023d1b426ceaf5e084e451da3ddd8f4ec440af
+  PlaywireMobile: da408d38d0413c0f7dbd95337672fa0f9db50a8b
   smaato-ios-sdk: afa210ca22398b9ae75fddc921472b05e0bb3d37
   UnityAds: 107ca5df015ff7880c56ceddb1019e0c0d96846c
   VungleAds: 1da221690dd1a8710d0b6a4c7aeac14cb12d31ab
