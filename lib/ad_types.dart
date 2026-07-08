@@ -30,7 +30,7 @@ class _AdTypesState extends State<AdTypes> {
     });
 
     // Log SDK events to console.
-    Playwire.startConsoleLogger();
+    Playwire.setLogLevel(LogLevel.info);
     // Set to `true` to test your implementation with GAM test ads on real devices.
     Playwire.setTest(false);
 
@@ -124,7 +124,7 @@ class _AdTypesState extends State<AdTypes> {
     setState(() {
       _isLoading = true;
     });
-    await Playwire.initialize(publisherId: _publisherId, appId: _appId);
+    await Playwire.start(publisherId: _publisherId, appId: _appId);
     setState(() {
       _isLoading = false;
     });
