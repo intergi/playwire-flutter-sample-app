@@ -33,10 +33,10 @@ class _AppOpenState extends State<AppOpen> {
           _showAppOpen();
           break;
         case AppOpenEventType.loadFailed:
-          Logger.root.fine("App Open load failed");
+          Logger.root.fine("App Open load failed: ${e.error?.name}");
           break;
         case AppOpenEventType.failedToOpen:
-          Logger.root.fine("App Open failed to open");
+          Logger.root.fine("App Open failed to open: ${e.error?.name}");
           break;
         case AppOpenEventType.closed:
           Logger.root.fine("App Open closed");

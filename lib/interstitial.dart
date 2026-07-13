@@ -33,10 +33,10 @@ class _InterstitialState extends State<Interstitial> {
           _showInterstitial();
           break;
         case InterstitialEventType.loadFailed:
-          Logger.root.fine("Interstitial load failed");
+          Logger.root.fine("Interstitial load failed: ${e.error?.name}");
           break;
         case InterstitialEventType.failedToOpen:
-          Logger.root.fine("Interstitial failed to open");
+          Logger.root.fine("Interstitial failed to open: ${e.error?.name}");
           break;
         case InterstitialEventType.closed:
           Logger.root.fine("Interstitial closed");

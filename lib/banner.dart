@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:logging/logging.dart';
 import 'package:playwire_flutter/playwire.dart';
+import 'package:playwire_flutter/playwire_ad_error.dart';
 
 class Banner extends StatelessWidget {
   final String adUnitId;
@@ -32,8 +33,8 @@ class Banner extends StatelessWidget {
             onAdLoaded: () {
               Logger.root.fine("Banner loaded");
             },
-            onAdFailedToLoad: ({code, message}) {
-              Logger.root.fine("Banner failed to loaded $message");
+            onAdFailedToLoad: (PlaywireAdError? error) {
+              Logger.root.fine("Banner failed to load: ${error?.name}");
             },
             onAdImpression: () {
               Logger.root.fine("Banner impression");

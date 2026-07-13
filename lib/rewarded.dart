@@ -33,10 +33,10 @@ class _RewardedState extends State<Rewarded> {
           _showRewarded();
           break;
         case RewardedEventType.loadFailed:
-          Logger.root.fine("Rewarded failed to load");
+          Logger.root.fine("Rewarded load failed: ${e.error?.name}");
           break;
         case RewardedEventType.failedToOpen:
-          Logger.root.fine("Rewarded failed to open");
+          Logger.root.fine("Rewarded failed to open: ${e.error?.name}");
           break;
         case RewardedEventType.closed:
           Logger.root.fine("Rewarded closed");
