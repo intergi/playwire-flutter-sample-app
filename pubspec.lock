@@ -164,10 +164,10 @@ packages:
     dependency: "direct main"
     description:
       name: playwire_flutter
-      sha256: "0b2b67b5e7c0583bca51f475da176103f43d462bd0aa428cd251a26d455758d3"
+      sha256: "3ddf38fca112e5b8d0a6e87c70cfded0b424ee676cfec0ac078a488c5443e852"
       url: "https://pub.dev"
     source: hosted
-    version: "13.0.0-alpha.1"
+    version: "13.0.0"
   plugin_platform_interface:
     dependency: transitive
     description:
