@@ -132,7 +132,7 @@ PODS:
     - OguryCore (= 2.2.1)
   - OMSDK_Ogury (1.5.7)
   - OpenWrapSDK (5.1.1)
-  - Playwire (13.1.0-beta.2):
+  - Playwire (13.1.0):
     - AmazonPublisherServicesSDK (= 5.6.2)
     - AppLovinMediationAmazonAdMarketplaceAdapter (= 5.6.2.0)
     - AppLovinMediationByteDanceAdapter (= 8.2.1.0.0)
@@ -163,9 +163,9 @@ PODS:
     - GoogleMobileAdsMediationPangle (= 8.2.1.0.0)
     - GoogleMobileAdsMediationUnity (= 4.19.0.1)
     - GoogleMobileAdsMediationVungle (= 7.7.4.0)
-  - playwire_flutter (13.1.0-beta.2):
+  - playwire_flutter (13.1.0):
     - Flutter
-    - Playwire (= 13.1.0-beta.2)
+    - Playwire (= 13.1.0)
   - smaato-ios-sdk (23.1.0):
     - smaato-ios-sdk/Full (= 23.1.0)
   - smaato-ios-sdk/Banner (23.1.0):
@@ -204,14 +204,10 @@ PODS:
     - UnityCoherenceLib (= 0.1.0)
   - UnityCoherenceLib (0.1.0)
   - VungleAds (7.7.4)
-  - webview_flutter_wkwebview (0.0.1):
-    - Flutter
-    - FlutterMacOS
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
   - playwire_flutter (from `.symlinks/plugins/playwire_flutter/ios`)
-  - webview_flutter_wkwebview (from `.symlinks/plugins/webview_flutter_wkwebview/darwin`)
 
 SPEC REPOS:
   trunk:
@@ -272,8 +268,6 @@ EXTERNAL SOURCES:
     :path: Flutter
   playwire_flutter:
     :path: ".symlinks/plugins/playwire_flutter/ios"
-  webview_flutter_wkwebview:
-    :path: ".symlinks/plugins/webview_flutter_wkwebview/darwin"
 
 SPEC CHECKSUMS:
   Ads-Global: 46a918b0dfddf82137187d73d8ec40b5d49cf77e
@@ -323,13 +317,12 @@ SPEC CHECKSUMS:
   OgurySdk: 88dbd08ec1404c8f2e0825ccaefe019173f41c71
   OMSDK_Ogury: 38a1f4c2237da6861909da9290dd1224ddeb3de4
   OpenWrapSDK: e6aaa2c0265c137bca1cd754ff23c8390bcead0d
-  Playwire: 00d610e66ff6361e3ed3f57e3acdba5529f2dc01
-  playwire_flutter: 79a89a678e9d0750941ef7b48c7b464ce343b38b
+  Playwire: a2f5413a4a5d71fa2955a81a8c1f4e6c3fa088c7
+  playwire_flutter: ed2b4b0a25fcc25fd8da531557b13af82163624a
   smaato-ios-sdk: 88d31a457defbdd6c90baa5ec65d1a2aac5ad7e9
   UnityAds: 40804188247edc15e4e173450a749dbb2fbc61c5
   UnityCoherenceLib: d9be08c5b9c2880cb220c7ecd643f97ebda422b7
   VungleAds: 77bad219e9e4b34bf43ab2518bf2fac72b86100b
-  webview_flutter_wkwebview: 29eb20d43355b48fe7d07113835b9128f84e3af4
 
 PODFILE CHECKSUM: 3ba3a73b1b12adcf321a227a745625fe0888cc82
 
