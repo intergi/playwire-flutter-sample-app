@@ -21,12 +21,12 @@ PODS:
   - AppLovinMediationFyberAdapter (8.4.7.0):
     - AppLovinSDK (>= 13.0.0)
     - Fyber_Marketplace_SDK (= 8.4.7)
-  - AppLovinMediationGoogleAdapter (13.6.0.0):
+  - AppLovinMediationGoogleAdapter (13.7.0.0):
     - AppLovinSDK (>= 13.0.0)
-    - Google-Mobile-Ads-SDK (= 13.6.0)
-  - AppLovinMediationGoogleAdManagerAdapter (13.6.0.0):
+    - Google-Mobile-Ads-SDK (= 13.7.0)
+  - AppLovinMediationGoogleAdManagerAdapter (13.7.0.0):
     - AppLovinSDK (>= 13.0.0)
-    - Google-Mobile-Ads-SDK (= 13.6.0)
+    - Google-Mobile-Ads-SDK (= 13.7.0)
   - AppLovinMediationInMobiAdapter (11.4.1.1):
     - AppLovinSDK (>= 13.0.0)
     - InMobiSDK (= 11.4.1)
@@ -42,10 +42,10 @@ PODS:
   - AppLovinMediationPubMaticAdapter (5.1.1.0):
     - AppLovinSDK (>= 13.0.0)
     - OpenWrapSDK (= 5.1.1)
-  - AppLovinMediationSmaatoAdapter (23.1.0.0):
+  - AppLovinMediationSmaatoAdapter (23.2.1.0):
     - AppLovinSDK (>= 13.0.0)
-    - smaato-ios-sdk (= 23.1.0)
-    - smaato-ios-sdk/InApp (= 23.1.0)
+    - smaato-ios-sdk (= 23.2.1)
+    - smaato-ios-sdk/InApp (= 23.2.1)
   - AppLovinMediationUnityAdsAdapter (4.19.0.1):
     - AppLovinSDK (>= 13.0.0)
     - UnityAds (= 4.19.0)
@@ -61,7 +61,7 @@ PODS:
   - FBAudienceNetwork (6.21.1)
   - Flutter (1.0.0)
   - Fyber_Marketplace_SDK (8.4.7)
-  - Google-Mobile-Ads-SDK (13.6.0):
+  - Google-Mobile-Ads-SDK (13.7.0):
     - GoogleUserMessagingPlatform (>= 1.1)
   - GoogleAds-IMA-iOS-SDK (3.26.1)
   - GoogleMobileAdsMediationAppLovin (13.6.3.0):
@@ -132,26 +132,26 @@ PODS:
     - OguryCore (= 2.2.1)
   - OMSDK_Ogury (1.5.7)
   - OpenWrapSDK (5.1.1)
-  - Playwire (13.1.0):
+  - Playwire (13.2.0-alpha.3):
     - AmazonPublisherServicesSDK (= 5.6.2)
     - AppLovinMediationAmazonAdMarketplaceAdapter (= 5.6.2.0)
     - AppLovinMediationByteDanceAdapter (= 8.2.1.0.0)
     - AppLovinMediationChartboostAdapter (= 9.13.0.0)
     - AppLovinMediationFacebookAdapter (= 6.21.1.0)
     - AppLovinMediationFyberAdapter (= 8.4.7.0)
-    - AppLovinMediationGoogleAdapter (= 13.6.0.0)
-    - AppLovinMediationGoogleAdManagerAdapter (= 13.6.0.0)
+    - AppLovinMediationGoogleAdapter (= 13.7.0.0)
+    - AppLovinMediationGoogleAdManagerAdapter (= 13.7.0.0)
     - AppLovinMediationInMobiAdapter (= 11.4.1.1)
     - AppLovinMediationIronSourceAdapter (= 9.4.1.0.0)
     - AppLovinMediationMolocoAdapter (= 4.9.0.0)
     - AppLovinMediationOguryPresageAdapter (= 5.2.3.0)
     - AppLovinMediationPubMaticAdapter (= 5.1.1.0)
-    - AppLovinMediationSmaatoAdapter (= 23.1.0.0)
+    - AppLovinMediationSmaatoAdapter (= 23.2.1.0)
     - AppLovinMediationUnityAdsAdapter (= 4.19.0.1)
     - AppLovinMediationVerveAdapter (= 3.8.1.0)
     - AppLovinMediationVungleAdapter (= 7.7.4.0)
     - AppLovinSDK (= 13.6.3)
-    - Google-Mobile-Ads-SDK (= 13.6.0)
+    - Google-Mobile-Ads-SDK (= 13.7.0)
     - GoogleAds-IMA-iOS-SDK (= 3.26.1)
     - GoogleMobileAdsMediationAppLovin (= 13.6.3.0)
     - GoogleMobileAdsMediationChartboost (= 9.13.0.0)
@@ -163,40 +163,39 @@ PODS:
     - GoogleMobileAdsMediationPangle (= 8.2.1.0.0)
     - GoogleMobileAdsMediationUnity (= 4.19.0.1)
     - GoogleMobileAdsMediationVungle (= 7.7.4.0)
-  - playwire_flutter (13.1.0):
+  - playwire_flutter (13.2.0-alpha.1):
     - Flutter
-    - Playwire (= 13.1.0)
-  - smaato-ios-sdk (23.1.0):
-    - smaato-ios-sdk/Full (= 23.1.0)
-  - smaato-ios-sdk/Banner (23.1.0):
+    - Playwire (= 13.2.0-alpha.3)
+  - smaato-ios-sdk (23.2.1):
+    - smaato-ios-sdk/Full (= 23.2.1)
+  - smaato-ios-sdk/Banner (23.2.1):
     - smaato-ios-sdk/InApp
     - smaato-ios-sdk/Modules/Banner
     - smaato-ios-sdk/Modules/Core
-  - smaato-ios-sdk/Full (23.1.0):
+  - smaato-ios-sdk/Full (23.2.1):
     - smaato-ios-sdk/Banner
     - smaato-ios-sdk/Interstitial
     - smaato-ios-sdk/Native
     - smaato-ios-sdk/RewardedAds
-  - smaato-ios-sdk/InApp (23.1.0):
+  - smaato-ios-sdk/InApp (23.2.1):
     - smaato-ios-sdk/Modules/Core
-  - smaato-ios-sdk/Interstitial (23.1.0):
+  - smaato-ios-sdk/Interstitial (23.2.1):
     - smaato-ios-sdk/InApp
     - smaato-ios-sdk/Modules/Interstitial
-  - smaato-ios-sdk/Modules/Banner (23.1.0):
+  - smaato-ios-sdk/Modules/Banner (23.2.1):
     - smaato-ios-sdk/Modules/Core
-  - smaato-ios-sdk/Modules/Core (23.1.0):
-    - ATOM-Standalone
-  - smaato-ios-sdk/Modules/Interstitial (23.1.0):
+  - smaato-ios-sdk/Modules/Core (23.2.1)
+  - smaato-ios-sdk/Modules/Interstitial (23.2.1):
     - smaato-ios-sdk/Modules/Core
-  - smaato-ios-sdk/Modules/Native (23.1.0):
+  - smaato-ios-sdk/Modules/Native (23.2.1):
     - smaato-ios-sdk/Modules/Core
-  - smaato-ios-sdk/Modules/RewardedAds (23.1.0):
+  - smaato-ios-sdk/Modules/RewardedAds (23.2.1):
     - smaato-ios-sdk/Modules/Core
-  - smaato-ios-sdk/Native (23.1.0):
+  - smaato-ios-sdk/Native (23.2.1):
     - smaato-ios-sdk/InApp
     - smaato-ios-sdk/Modules/Core
     - smaato-ios-sdk/Modules/Native
-  - smaato-ios-sdk/RewardedAds (23.1.0):
+  - smaato-ios-sdk/RewardedAds (23.2.1):
     - smaato-ios-sdk/InApp
     - smaato-ios-sdk/Modules/RewardedAds
   - UnityAds (4.19.0):
@@ -204,10 +203,14 @@ PODS:
     - UnityCoherenceLib (= 0.1.0)
   - UnityCoherenceLib (0.1.0)
   - VungleAds (7.7.4)
+  - webview_flutter_wkwebview (0.0.1):
+    - Flutter
+    - FlutterMacOS
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
   - playwire_flutter (from `.symlinks/plugins/playwire_flutter/ios`)
+  - webview_flutter_wkwebview (from `.symlinks/plugins/webview_flutter_wkwebview/darwin`)
 
 SPEC REPOS:
   trunk:
@@ -268,6 +271,8 @@ EXTERNAL SOURCES:
     :path: Flutter
   playwire_flutter:
     :path: ".symlinks/plugins/playwire_flutter/ios"
+  webview_flutter_wkwebview:
+    :path: ".symlinks/plugins/webview_flutter_wkwebview/darwin"
 
 SPEC CHECKSUMS:
   Ads-Global: 46a918b0dfddf82137187d73d8ec40b5d49cf77e
@@ -277,14 +282,14 @@ SPEC CHECKSUMS:
   AppLovinMediationChartboostAdapter: ec702b500c0311c28fc6a59b270388ee22b2346d
   AppLovinMediationFacebookAdapter: b962c9d82620bfb9ee53909aa9856d642e1f84db
   AppLovinMediationFyberAdapter: 0d386d13531e8e5be5421f76572e90779cab0ae1
-  AppLovinMediationGoogleAdapter: 84b746dc2e4aa5947eb81d18ab0607d90643bb0c
-  AppLovinMediationGoogleAdManagerAdapter: 7adf87187a77a64d8c5aa5160ba0445b58d2ad63
+  AppLovinMediationGoogleAdapter: 15f3530645e2422072eb9890ab323ebfcaa414a2
+  AppLovinMediationGoogleAdManagerAdapter: 7d283d1122d2b1027d224fa590329361c37feabd
   AppLovinMediationInMobiAdapter: 2a0fbdbe801e033996cee65e1392d4585f7213d2
   AppLovinMediationIronSourceAdapter: 9b56b1bf37360e44f3e7054b26292518a8dad108
   AppLovinMediationMolocoAdapter: c242a71a89327ff1fa777e2ea23091a7b5a86b3e
   AppLovinMediationOguryPresageAdapter: c5a70e4d75c00a930e8b02da12b2a717494f3dc9
   AppLovinMediationPubMaticAdapter: 0171c97216e286523168c14ad8c12c7328619030
-  AppLovinMediationSmaatoAdapter: 33718c19b4957d850702aac2ab07f78c197437f8
+  AppLovinMediationSmaatoAdapter: 02fcbf372d397ef0160cc2f7d97519208ca2b8d4
   AppLovinMediationUnityAdsAdapter: eec58f1bcdc63ab7a4bb3a24287b1c63d8c1f87e
   AppLovinMediationVerveAdapter: d4da046207e3d437a2426248efd09700e5168115
   AppLovinMediationVungleAdapter: 6f9c35ae4ec4083559e39a75d7c80c6ff1b5dd6d
@@ -294,7 +299,7 @@ SPEC CHECKSUMS:
   FBAudienceNetwork: 85d18a65c9e35bc426bd4664cf3ae2a1172d7b60
   Flutter: 71a624a5bc0c04062bf19101d501e466baf2fb47
   Fyber_Marketplace_SDK: 1a880b530921ddf07a74982e163ab56eaf90e932
-  Google-Mobile-Ads-SDK: 6e501ace4af8d63e967bd45497c8b2b05821163d
+  Google-Mobile-Ads-SDK: dd0ded6717d122c6a32c69dc4afcace7d276e4e4
   GoogleAds-IMA-iOS-SDK: 10b8f194e7cd2714d4de9a0587c46c8aaf06c620
   GoogleMobileAdsMediationAppLovin: 8929ef5280829acc3e1e4c41f9c6cfd3f99ee7cd
   GoogleMobileAdsMediationChartboost: 02fd0b060a59d7e5eb749f65fe12382825a12ff3
@@ -317,12 +322,13 @@ SPEC CHECKSUMS:
   OgurySdk: 88dbd08ec1404c8f2e0825ccaefe019173f41c71
   OMSDK_Ogury: 38a1f4c2237da6861909da9290dd1224ddeb3de4
   OpenWrapSDK: e6aaa2c0265c137bca1cd754ff23c8390bcead0d
-  Playwire: a2f5413a4a5d71fa2955a81a8c1f4e6c3fa088c7
-  playwire_flutter: ed2b4b0a25fcc25fd8da531557b13af82163624a
-  smaato-ios-sdk: 88d31a457defbdd6c90baa5ec65d1a2aac5ad7e9
+  Playwire: cad42dd32ba5c819569ea02bedd4b2c58366dced
+  playwire_flutter: 11893e3c7dd2eb90ef0e1f801c020eaaa7d23765
+  smaato-ios-sdk: d93b71c42e5213d6ad8e16eeae39f402709edcce
   UnityAds: 40804188247edc15e4e173450a749dbb2fbc61c5
   UnityCoherenceLib: d9be08c5b9c2880cb220c7ecd643f97ebda422b7
   VungleAds: 77bad219e9e4b34bf43ab2518bf2fac72b86100b
+  webview_flutter_wkwebview: 29eb20d43355b48fe7d07113835b9128f84e3af4
 
 PODFILE CHECKSUM: 3ba3a73b1b12adcf321a227a745625fe0888cc82
 
