@@ -132,7 +132,7 @@ PODS:
     - OguryCore (= 2.2.1)
   - OMSDK_Ogury (1.5.7)
   - OpenWrapSDK (5.1.1)
-  - Playwire (13.2.0-alpha.3):
+  - Playwire (13.2.0):
     - AmazonPublisherServicesSDK (= 5.6.2)
     - AppLovinMediationAmazonAdMarketplaceAdapter (= 5.6.2.0)
     - AppLovinMediationByteDanceAdapter (= 8.2.1.0.0)
@@ -163,9 +163,9 @@ PODS:
     - GoogleMobileAdsMediationPangle (= 8.2.1.0.0)
     - GoogleMobileAdsMediationUnity (= 4.19.0.1)
     - GoogleMobileAdsMediationVungle (= 7.7.4.0)
-  - playwire_flutter (13.2.0-alpha.1):
+  - playwire_flutter (13.2.0):
     - Flutter
-    - Playwire (= 13.2.0-alpha.3)
+    - Playwire (= 13.2.0)
   - smaato-ios-sdk (23.2.1):
     - smaato-ios-sdk/Full (= 23.2.1)
   - smaato-ios-sdk/Banner (23.2.1):
@@ -322,8 +322,8 @@ SPEC CHECKSUMS:
   OgurySdk: 88dbd08ec1404c8f2e0825ccaefe019173f41c71
   OMSDK_Ogury: 38a1f4c2237da6861909da9290dd1224ddeb3de4
   OpenWrapSDK: e6aaa2c0265c137bca1cd754ff23c8390bcead0d
-  Playwire: cad42dd32ba5c819569ea02bedd4b2c58366dced
-  playwire_flutter: 11893e3c7dd2eb90ef0e1f801c020eaaa7d23765
+  Playwire: 660cfd26bfac1396f55fab63ef9ce2fffe5b7b53
+  playwire_flutter: 9b1848d3c5a87a73c18ddedec901262f6bbb3164
   smaato-ios-sdk: d93b71c42e5213d6ad8e16eeae39f402709edcce
   UnityAds: 40804188247edc15e4e173450a749dbb2fbc61c5
   UnityCoherenceLib: d9be08c5b9c2880cb220c7ecd643f97ebda422b7
